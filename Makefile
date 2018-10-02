@@ -11,3 +11,10 @@ build-tarball:
 	chmod +x $(TMP)/mister/misterd
 	tar -C $(TMP) -zcvf $(TARBALL) mister
 	rm -rf $(TMP)
+
+
+test-unit: 
+	echo "TODO"
+
+test-integration:
+	echo "TODO"
